@@ -1,0 +1,260 @@
+li {
+  list-style: none;
+  background-color: lightgray;
+  background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+  padding: 10px 15px 10px 25px;
+  border: 1px solid #CCC;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#notebooks {
+  position: absolute;
+  left: 38%;
+  width: 350px;
+  border-radius: 5px;
+  max-height: 450px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  max-height: 390px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 5px 0 5px;
+  border-left: none;
+  border-right: none;
+}
+
+#query {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 19px;
+  padding: 5px;
+  border-radius: 23px;
+  background-color: white;
+  color: gray;
+  padding-left: 29px;
+}
+
+/*#notebooks span {
+  display: block;
+  position: absolute;
+  background: #FFD32E;
+  bottom: -35px;
+  left: -1px;
+  width: 360px;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}*/
+
+
+
+.logo {
+  text-align: center;
+  font-size: 70px;
+  color: red;
+  background: white;
+  width: 105px;
+  height: 113px;
+  border-radius: 50%;
+  position: absolute;
+  top: 14%;
+  margin-left: 43%;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.headings {
+  color: white;
+  text-align: center;
+  font-size: 31px;
+  font-weight: normal;
+  position: relative;
+  margin: -82px 0 45px 0px;
+  font-size: 50px;
+  top: -227px;
+  font-family: inherit;
+}
+
+.locationSelector {
+  position: relative;
+  top: -238px;
+  margin-left: 27.5%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.locationDropdown {
+  height: 40px;
+  width: 232px;
+  color: gray;
+  border: none;
+  border-radius: 18px;
+  font-size: 15px;
+  opacity: 0.8;
+  margin-right: 21px;
+  margin-bottom: 25px;
+  float: left;
+  text-align: center;
+}
+
+.restaurantsinput {
+  height: 40px;
+  width: 338px;
+  color: gray;
+  border: none;
+  border-radius: 16px;
+  font-size: 15px;
+  opacity: 0.8;
+  float: left;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.quicksearch {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -35px;
+}
+
+.quicksearchHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: cursive;
+  padding-left: 35px;
+  margin-top: 17px;
+}
+
+.quicksearchSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+  margin-bottom: 32px;
+}
+
+.tileContainer {
+  height: 150px;
+  width: 350px;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  box-shadow: 0 10px 19px gray;
+  float: left;
+}
+
+.tileComponent1 {
+  width: 45%;
+  float: left;
+}
+
+.tileComponent2 {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.componentHeading {
+  text-align: left;
+  color: crimson;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  margin-top: -15px;
+}
+
+.componentSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+}
+
+.qs-block {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.marg-bot {
+  margin-bottom: 10px;
+}
+
+.heading {
+  width: 88px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+@media only screen and (max-width: 600px) {
+  .headings {
+
+    font-size: 36px;
+  }
+
+  .locationDropdown {
+    margin-left: -154px;
+  }
+
+  .locationSelector {
+    top: -238px;
+    margin-left: 32.5%;
+    margin-right: 20%;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 792px) {
+  .headings {
+
+    font-size: 36px;
+  }
+
+  .locationDropdown {
+    margin-left: -154px;
+  }
+
+  .locationSelector {
+    top: -238px;
+    margin-left: 32.5%;
+    margin-right: 20%;
+  }
+
+
+}
+
+@media only screen and (min-width: 792px) and (max-width: 992px) {
+  .locationDropdown {
+    width: 282px;
+    margin-left: -151px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1192px) {
+  .locationDropdown {
+    width: 282px;
+    margin-left: -94px;
+  }
+}

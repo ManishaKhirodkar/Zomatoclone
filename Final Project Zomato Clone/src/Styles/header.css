@@ -1,0 +1,44 @@
+.header {
+    height: 64px;
+    width: 100%;
+    background-color: rgb(199, 15, 15);
+    display: inline-block;
+    pointer-events: painted;
+}
+
+.title_name {
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 12px;
+    font-size: 35px;
+    font-family: ui-monospace;
+    cursor: pointer;
+}
+.glogin{
+    margin-top: 25px;
+    float: right;
+    height: 33px;
+}
+
+.login-group {
+    float: right; 
+}
+.login{
+    display: inline-block;
+    margin-top: -80px;
+    margin-right: 20px;
+}
+.signup{
+    display: inline-block;
+    margin-top: -80px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 792px) {}
+
+@media only screen and (min-width: 792px) and (max-width: 992px) {}

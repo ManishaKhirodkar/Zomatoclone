@@ -1,0 +1,404 @@
+.Bakery {
+  color: steelblue;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.page-number {
+  border: 1px solid grey;
+  padding: 4px;
+  border-radius: 30%;
+  margin-left: 6px;
+  margin-right: 6px;
+  min-width: 34px;
+  height: 37px;
+}
+
+.page-number:hover {
+  background-color: gray;
+}
+
+.nrecords {
+  font-size: 25px;
+  font-family: monospace;
+  color: brown;
+  text-align: center;
+}
+
+.Breakfast {
+  color: #192f60;
+  margin: 19px 0 29px 67px;
+  font-size: 37px;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+.filtercontainer {
+  height: 100%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-left: 10px;
+}
+
+.filter-options {
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 71%);
+  background-color: #ffffff;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 3%;
+  margin-left: 53px;
+  width: 90%;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: none;
+}
+
+.filter-heading {
+  font-family: Poppins;
+  font-size: 21px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  padding-top: 7px;
+  display: inline-block;
+}
+
+.Select-Location {
+  height: 20px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-top: 30px;
+}
+
+.Rectangle-2236 {
+  width: 209px;
+  height: 31px;
+  border-radius: 20px;
+  border: solid 1px #8c96ab;
+  margin-top: 10px;
+}
+
+.Cuisine {
+  height: 20px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-top: 19px;
+}
+
+.checkbox-items {
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  margin: 0 0 0px 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+.img {
+  width: 164px;
+  height: 110px;
+  border-radius: 15px;
+  margin-left: 13%;
+  margin-top: 13px;
+}
+
+.rest-name {
+  height: 57px;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-top: 4px;
+}
+
+.toggle-span {
+  float: right;
+  padding: 5px 0px 5px 0px;
+  display: none;
+}
+
+.rest-location {
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.rest-address {
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+
+.Bakery-700 {
+  height: 40px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.padding-left {
+  padding-left: 60px;
+}
+
+.custom-button {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 white;
+}
+
+.pagination {
+  display: inline-block;
+  margin-left: 275px;
+  margin-top: -3px;
+}
+
+.pagination a {
+  color: gray;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: solid 1px gray;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+.rating {
+  margin-left: 10px;
+  color: black;
+}
+
+.star-rating {
+  color: rgb(199, 15, 15);
+}
+
+.rate-text {
+  color: #192f60;
+  margin-left: 10px;
+}
+
+.Item {
+  width: 90%;
+  height: 244px;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 71%);
+  background-color: #ffffff;
+  margin-bottom: 27px;
+  margin-left: 17px;
+}
+
+.big {
+  display: inline-block;
+  width: 68%;
+}
+
+.vertical {
+  vertical-align: top;
+}
+
+.small {
+  display: inline-block;
+  width: 28%;
+}
+
+.big-item {
+  display: inline-block;
+  width: 68%;
+}
+
+.small-item {
+  display: inline-block;
+  width: 28%;
+}
+
+.margin-left {
+  margin-left: 7%
+}
+
+@media only screen and (max-width: 600px) {
+  .icon {
+    display: initial;
+  }
+
+  .Breakfast {
+    margin: 19px 0 29px 13px;
+    font-size: 33px;
+  }
+
+  .Item {
+    margin-bottom: 15px;
+  }
+  .filter-options {
+    margin-left: 13px;
+
+  }
+
+  .star-rating {
+    margin-left: 76px;
+  }
+
+  .margin-left {
+    margin-left: 4%;
+    margin-top: -19px;
+  }
+
+  .rest-name {
+    margin-left: 77px;
+  }
+
+  .rest-location {
+    padding-left: 77px;
+  }
+
+  .rest-address {
+    margin-left: 77px;
+  }
+
+  .pagination {
+    margin-top: 15px;
+    margin-left: 33%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 792px) {
+  .icon {
+    display: initial;
+  }
+
+  .Breakfast {
+    margin: 19px 0 29px 13px;
+    font-size: 33px;
+  }
+
+  .Item {
+    margin-bottom: 15px;
+  }
+
+
+
+  .filter-options {
+    margin-left: 13px;
+  }
+
+  .star-rating {
+    margin-left: 76px;
+  }
+
+  .margin-left {
+    margin-left: 4%;
+    margin-top: -19px;
+  }
+
+  .rest-name {
+    margin-left: 77px;
+  }
+
+  .rest-location {
+    padding-left: 77px;
+  }
+
+  .rest-address {
+    margin-left: 77px;
+  }
+
+  .pagination {
+    margin-top: 15px;
+    margin-left: 33%;
+  }
+}
+
+@media only screen and (min-width: 792px) and (max-width: 992px) {
+  .icon {
+    display: initial;
+  }
+
+  .Breakfast {
+    margin: 19px 0 29px 13px;
+    font-size: 33px;
+  }
+
+  .Item {
+    margin-bottom: 15px;
+  }
+
+  .filter-options {
+    margin-left: 13px;
+
+  }
+
+  .star-rating {
+    margin-left: 76px;
+  }
+
+  .margin-left {
+    margin-left: 4%;
+    margin-top: -19px;
+  }
+
+  .rest-name {
+    margin-left: 77px;
+  }
+
+  .rest-location {
+    padding-left: 77px;
+  }
+
+  .rest-address {
+    margin-left: 77px;
+  }
+
+  .pagination {
+    margin-top: 15px;
+    margin-left: 33%;
+  }
+}
